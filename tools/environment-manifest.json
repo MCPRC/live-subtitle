@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "pairs": [
+    [
+      "en",
+      "zh"
+    ]
+  ],
+  "dependencies": {
+    "av": "18.1.0",
+    "certifi": "2026.10.23",
+    "cffi": "2.1.1",
+    "charset-normalizer": "3.5.2",
+    "click": "8.5.1",
+    "cloudpickle": "3.1.2",
+    "colorama": "0.4.6",
+    "ctranslate2": "4.9.0",
+    "faster-whisper": "1.2.1",
+    "filelock": "4.2.10",
+    "flatbuffers": "25.12.19",
+    "fsspec": "2026.9.0",
+    "huggingface_hub": "0.36.2",
+    "idna": "3.20",
+    "Jinja2": "3.1.6",
+    "joblib": "1.6.0",
+    "MarkupSafe": "3.0.3",
+    "mpmath": "1.3.0",
+    "networkx": "3.6.1",
+    "numpy": "2.4.6",
+    "onnxruntime": "1.31.1",
+    "opencc-python-reimplemented": "0.1.7",
+    "packaging": "26.3",
+    "protobuf": "7.36.2",
+    "psutil": "7.2.2",
+    "pycparser": "3.12",
+    "PyQt6": "6.12.0",
+    "PyQt6-Qt6": "6.12.0",
+    "PyQt6_sip": "13.13.1",
+    "PyYAML": "6.0.3",
+    "regex": "2026.11.9",
+    "requests": "2.34.2",
+    "sacremoses": "0.2.0",
+    "safetensors": "0.8.0",
+    "scipy": "1.17.1",
+    "sentencepiece": "0.2.3",
+    "SoundCard": "0.4.6",
+    "sympy": "1.14.0",
+    "tokenizers": "0.22.2",
+    "torch": "2.15.0+cpu",
+    "tqdm": "4.70.1",
+    "transformers": "4.57.6",
+    "typing_extensions": "4.16.0",
+    "urllib3": "2.8.0"
+  },
+  "models": [
+    {
+      "key": "asr",
+      "label": "语音识别 · Whisper small INT8",
+      "files": [
+        {
+          "path": "models/whisper-small-int8/config.json",
+          "bytes": 2609,
+          "sha256": "364e66f09ce360358f61e549786419eedc8e6ab709186304dc77f84a3c4966c8"
+        },
+        {
+          "path": "models/whisper-small-int8/model.bin",
+          "bytes": 248203797,
+          "sha256": "ca732cb1379efc49417d028465f543d83a39de2c61f3027678de103dc404ce73"
+        },
+        {
+          "path": "models/whisper-small-int8/preprocessor_config.json",
+          "bytes": 184990,
+          "sha256": "9b5cd03a36fbb8a627c64d98a5b5b126ead95a77720723944487311f0110b666"
+        },
+        {
+          "path": "models/whisper-small-int8/tokenizer.json",
+          "bytes": 2480466,
+          "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566"
+        },
+        {
+          "path": "models/whisper-small-int8/vocabulary.json",
+          "bytes": 1119969,
+          "sha256": "aa4e6188766a36f6a7f3e44db3f74823c6fee0bf33a9559247e18fedb3bc8d55"
+        }
+      ],
+      "sources": [
+        {
+          "path": "models/source-whisper-small/model.safetensors",
+          "bytes": 966995080,
+          "sha256": "1d7734884874f1a1513ed9aa760a4f8e97aaa02fd6d93a3a85d27b2ae9ca596b",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/model.safetensors?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/config.json",
+          "bytes": 1967,
+          "sha256": "e6a2b489da1b5aed65a8eb8d1e7466fa867ad5643a8bc138ba708bd56b2875c4",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/config.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/generation_config.json",
+          "bytes": 3868,
+          "sha256": "71565b8ef50d0bf7a1193ed4bbed195b94e70c18894d81bba2f1233dcec3ab53",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/generation_config.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/preprocessor_config.json",
+          "bytes": 184990,
+          "sha256": "9b5cd03a36fbb8a627c64d98a5b5b126ead95a77720723944487311f0110b666",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/preprocessor_config.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/tokenizer.json",
+          "bytes": 2480466,
+          "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/tokenizer.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/tokenizer_config.json",
+          "bytes": 282683,
+          "sha256": "2a4c4281cf9f51ac6ccc406fdc711a087afe6530f671fa7b80953edc498275ce",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/tokenizer_config.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/vocab.json",
+          "bytes": 835550,
+          "sha256": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/vocab.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/merges.txt",
+          "bytes": 493869,
+          "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/merges.txt?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/normalizer.json",
+          "bytes": 52666,
+          "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/normalizer.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/added_tokens.json",
+          "bytes": 34604,
+          "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/added_tokens.json?download=true"
+        },
+        {
+          "path": "models/source-whisper-small/special_tokens_map.json",
+          "bytes": 2194,
+          "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691",
+          "url": "https://huggingface.co/openai/whisper-small/resolve/973afd24965f72e36ca33b3055d56a652f456b4d/special_tokens_map.json?download=true"
+        }
+      ],
+      "source_dir": "models/source-whisper-small",
+      "copy_files": [
+        "tokenizer.json",
+        "preprocessor_config.json"
+      ]
+    },
+    {
+      "key": "mt",
+      "label": "翻译 · Opus-MT EN → 简中 INT8",
+      "files": [
+        {
+          "path": "models/opus-mt-en-zh-ct2-int8/config.json",
+          "bytes": 233,
+          "sha256": "72901fbd8abd89fb5cf4a388f26fc681f5c4c58a1e1a88b30b879f107270e7ee"
+        },
+        {
+          "path": "models/opus-mt-en-zh-ct2-int8/model.bin",
+          "bytes": 79567635,
+          "sha256": "327584c20bb83c7e89d595bcfa30b6ef3771c10816f707e892c4bbb1f808a8fb"
+        },
+        {
+          "path": "models/opus-mt-en-zh-ct2-int8/shared_vocabulary.json",
+          "bytes": 1368888,
+          "sha256": "4821251fdc0a6c9e889837b42427a90cb3240f71aef89681a5a6de525182a634"
+        },
+        {
+          "path": "models/opus-mt-en-zh-ct2-int8/source.spm",
+          "bytes": 806435,
+          "sha256": "5775ddc9e3ff2fae91554da56468ad35ff56edaba870fea74447bc7234bfdaa8"
+        },
+        {
+          "path": "models/opus-mt-en-zh-ct2-int8/target.spm",
+          "bytes": 804600,
+          "sha256": "81dc94efa84e4025ef38d25d5d07429fe41e3eb29d44003f1db6fe98487b0052"
+        }
+      ],
+      "sources": [
+        {
+          "path": "models/source-opus-en-zh/pytorch_model.bin",
+          "bytes": 312087009,
+          "sha256": "69a1d6ec829cee349360b3b677ac0aa99a7d88822d1a6578370029efffdca3f5",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/pytorch_model.bin?download=true"
+        },
+        {
+          "path": "models/source-opus-en-zh/config.json",
+          "bytes": 1403,
+          "sha256": "bcae8ed74fed77fb51c58462b62397fee6b1a1a34aece79183a0dd02ad329e71",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/config.json?download=true"
+        },
+        {
+          "path": "models/source-opus-en-zh/generation_config.json",
+          "bytes": 293,
+          "sha256": "837839ed0534a27084f9b980fc33f47729052dd89cb26cca7ac830765ed30e49",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/generation_config.json?download=true"
+        },
+        {
+          "path": "models/source-opus-en-zh/source.spm",
+          "bytes": 806435,
+          "sha256": "5775ddc9e3ff2fae91554da56468ad35ff56edaba870fea74447bc7234bfdaa8",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/source.spm?download=true"
+        },
+        {
+          "path": "models/source-opus-en-zh/target.spm",
+          "bytes": 804600,
+          "sha256": "81dc94efa84e4025ef38d25d5d07429fe41e3eb29d44003f1db6fe98487b0052",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/target.spm?download=true"
+        },
+        {
+          "path": "models/source-opus-en-zh/tokenizer_config.json",
+          "bytes": 44,
+          "sha256": "5df181fba586b7cb37d429c13c4f96cb43fb11de7bb6489733d9eded32418179",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/tokenizer_config.json?download=true"
+        },
+        {
+          "path": "models/source-opus-en-zh/vocab.json",
+          "bytes": 1617791,
+          "sha256": "f1832ca38f7aa158b9a944ff583e4901e6b37d9d4ad9241f03838e636e9cfb03",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/408d9bc410a388e1d9aef112a2daba955b945255/vocab.json?download=true"
+        }
+      ],
+      "source_dir": "models/source-opus-en-zh",
+      "copy_files": [
+        "source.spm",
+        "target.spm"
+      ]
+    }
+  ]
+}
